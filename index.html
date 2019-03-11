@@ -4,13 +4,21 @@
     <title>HTML wireframe</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="main.css">
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet"> 
+    
 </head>
 <body>
     <nav role="navigation">
         <div class="toggle"></div>
-        <div class="hamburger">☰</div>
+        <div class="hamburger" id="myHamburger">
+            <a href="https://github.com/coolanticool">GitHub</a>
+            <a href="https://www.linkedin.com/in/john-dang-690048142/">LinkedIn</a>
+            <a href="mailto:jollyjohndang@gmail.com">contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i></a>
+        </div>
     </nav>
     <main role="main">
         <header role="banner">
@@ -30,11 +38,15 @@ I like running trails and traveling when time allows.</div>
             Screenshot link to work
         </section>
         
-    </main>
-    <footer role="content-info">
+  
+
+    <footer class="contentInfo">
             <a href="mailto:jollyjohndang@gmail.com">contact</a>
             <a href="https://www.linkedin.com/in/john-dang-690048142/">LinkedIn</a>
             <a href="https://github.com/coolanticool">GitHub</a>
     </footer>
+</main>
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Raleway" rel="stylesheet">
+    <script src="main.js"></script>
 </body>
 </html>
