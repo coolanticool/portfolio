@@ -106,9 +106,19 @@
       display: flex;
       flex-direction: row-reverse;
       align-items:flex-end;
-      top: 20px;
-      right: 20px;
+      margin-right: 20px;
+      margin-top: 8px;
      
+  }
+
+
+  .hamburger a {
+    color: rgb(56, 56, 56);
+    
+  }
+
+  .hamburger a.night {
+    color: #fff;
   }
 
   header {
@@ -148,23 +158,26 @@
     .hamburger a.icon {
       display: block;
       color: #444;
-      top: 20;
-      right: 20;
     }
 
+   
+
     .hamburger a.icon.night {
+      color: #fff;
+    }
+
+    .hamburgerresponsive a.night {
       color: #fff;
     }
 
     .hamburgerresponsive a {
       
       display: block;
-      text-align: right; 
-      /*display: flex;
-      flex-direction: row-reverse;
-      align-items:flex-end;*/
-    }
-
-
+      text-align: right;
+      color: #444;
+      margin-right: 20px;
+      margin-top: 8px;
   }
+
+
   
