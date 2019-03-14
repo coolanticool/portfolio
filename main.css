@@ -4,8 +4,7 @@
   }
   
   body {
-    font-family: "Open Sans",
-    sans-serif; 
+    font-family: 'Raleway', sans-serif;
     font-size: 20px;
     color: #444;
     text-align: center;
@@ -13,31 +12,23 @@
     
   }
   
-  nav,
+  /*nav,
   footer {
     padding: 1% 0;
     
     font-family: 'Raleway', sans-serif;
-  }
+  }*/
 
   footer a {
     color: #444;
   }
 
   .contentInfo {
-    padding: 1% 0;
+    padding: 8% 0;
     font-family: 'Raleway', sans-serif;
     
   }
   
-  /*nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 10;
-  }*/
-
   .toggle {
       
       top: 20px;
@@ -52,10 +43,6 @@
       cursor: pointer;
       border-radius: 20px;
       transition: 0.5s;
-
-    /*display: flex;
-    flex-direction: column;
-    align-items:flex-start;*/
     
   }
 
@@ -70,24 +57,11 @@
       border: 2px solid rgb(56, 56, 56);
       border-radius: 20px;
       transition: 0.5s;
-       /*display: flex;
-    flex-direction: column;
-    align-items:flex-start;*/
 
   }
-  .toggle.active:before {
 
-    right: 1px
-    position: absolute;
-    top: 1px;
-    
-    width: 20px;
-    height: 10px;
-    background: #fff;
-      border: 2px solid rgb(56, 56, 56);
-      border-radius: 20px;
-      transition: 0.5s;
-    
+  .toggle.active:before {
+    left: 10px
   }
 
   body.night {
@@ -108,18 +82,25 @@
       align-items:flex-end;
       margin-right: 20px;
       margin-top: 8px;
-     
+      align-content: space-around;
+      
   }
 
 
   .hamburger a {
-    color: rgb(56, 56, 56);
-    
+    font-family: 'Raleway', sans-serif;
+    display: block;
+      text-align: right;
+      color: #444;
+      margin-right: 20px;
+      margin-top: 8px;
   }
 
   .hamburger a.night {
     color: #fff;
   }
+
+  
 
   header {
     padding: 12% 0;
@@ -127,21 +108,29 @@
   }
   
   section {
-    min-height: 200px;
+    min-height: 20px;
     padding: 6% 0;
-    
     font-family: 'Raleway', sans-serif;
   }
-  
-  section:nth-child(even) {
-    
+
+  p {
+    width: 90%; 
+    margin: auto;
   }
 
+
+  img {
+    cursor: pointer;
+    filter: grayscale(100%);
+  }
+  
+  
   address {
     display: flex;
     flex-direction: column;
     align-items:flex-start;
     padding: 20px;
+   
   }
 
   @media screen and (max-width:1024px) {
@@ -180,4 +169,4 @@
   }
 
 
-  
+}

@@ -15,6 +15,7 @@
                 $('.hamburger a').toggleClass('night')
                 /*$('.hamburger a.icon').toggleClass('night')*/
                 $('.hamburgerresponsive a.night').toggleClass('night')
+               
                 $('footer').toggleClass('night')
             })
         })
