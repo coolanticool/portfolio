@@ -120,6 +120,10 @@
     color: #fff;
   }
 
+  .cross.night {
+    color: #fff;
+  }
+
   header {
     padding: 5% 0;
     
@@ -242,9 +246,7 @@
   
    
 
-    .cross.night {
-      color: #fff;
-    }
+    
 
     .bio {
       width:90%;
