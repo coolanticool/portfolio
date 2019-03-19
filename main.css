@@ -18,18 +18,24 @@
     font-family: 'Raleway', sans-serif;
   }
 
-  
+  h1 {
+    
+    padding-top:7%;
+    margin-bottom: 5%;
+  }
 
   footer a {
     color: #444;
+    margin-right: 20px;
   }
 
   .contentInfo {
     padding-bottom: 90px;
+    padding-top: 15%;
     font-family: 'Raleway', sans-serif;
-    
   }
-  
+
+
   .toggle {
       
       top: 20px;
@@ -38,7 +44,7 @@
       position: absolute;
 
       background: #fff;
-      border: 2px solid rgb(56, 56, 56);
+      border: 2px solid #444;
       height: 20px;
       width: 40px;
       cursor: pointer;
@@ -55,7 +61,7 @@
     width: 20px;
     height: 10px;
     background: #fff;
-      border: 2px solid rgb(56, 56, 56);
+      border: 2px solid #444;
       border-radius: 20px;
       transition: 0.5s;
 
@@ -135,12 +141,28 @@
    
   }
 
-  h3 {
+  #selectedWorks{
     width: 60%;
+   margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  #reelTitle{
+    width: 60%;
+    margin-top: 5%;
+   margin-bottom: 0;
+  }
+
+
+
+  h3 {
+   
     margin-left:auto;
    margin-right: auto;
-    margin-bottom: 1px;
+  
   }
+
+
 
 
 
@@ -194,6 +216,10 @@
 
     .menu {display: none}
 
+    .hamburger.night {
+      color: #fff;
+    }
+    
   }
   
   @media screen and (max-width:480px) {
@@ -214,9 +240,7 @@
       flex-direction: column;
     }
   
-    .hamburger.night {
-      color: #fff;
-    }
+   
 
     .cross.night {
       color: #fff;
@@ -226,7 +250,7 @@
       width:90%;
     }
 
-    h3 {
+    #reelTitle {
       width:90%;
     }
 
